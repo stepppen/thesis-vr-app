@@ -35,6 +35,9 @@ EditorUserSettings:
     RecentlyUsedSceneGuid-9:
       value: 5003570253000f030f0c5f7048770940104e1d7d2f2e24647f2f1c66bbb0626d
       flags: 0
+    lightmappingBakingProfile:
+      value: 51
+      flags: 0
     vcSharedLogLevel:
       value: 0d5e400f0650
       flags: 0
@@ -54,3 +57,4 @@ EditorUserSettings:
   m_VCAllowAsyncUpdate: 1
   m_VCScanLocalPackagesOnConnect: 1
   m_ArtifactGarbageCollection: 1
+  m_CompressAssetsOnImport: 1
