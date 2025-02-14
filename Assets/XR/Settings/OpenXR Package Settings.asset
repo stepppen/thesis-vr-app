@@ -357,6 +357,28 @@ MonoBehaviour:
   company: Meta
   priority: 0
   required: 0
+--- !u!114 &-1859073986800274992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6a75d1f5ff90154ea2a8e58222a1f59, type: 3}
+  m_Name: FoveatedRenderingFeature Standalone
+  m_EditorClassIdentifier: 
+  m_enabled: 0
+  nameUi: Foveated Rendering
+  version: 1
+  featureIdInternal: com.unity.openxr.feature.foveatedrendering
+  openxrExtensionStrings: XR_UNITY_foveation XR_FB_foveation XR_FB_foveation_configuration
+    XR_FB_swapchain_update_state XR_FB_foveation_vulkan XR_META_foveation_eye_tracked
+    XR_META_vulkan_swapchain_create_info
+  company: Unity
+  priority: 0
+  required: 0
 --- !u!114 &-1670059832319747497
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -441,6 +463,28 @@ MonoBehaviour:
     XR_META_boundary_visibility XR_META_headset_id XR_FB_composition_layer_settings
     XR_META_automatic_layer_filter XR_EXT_future '
   company: Meta
+  priority: 0
+  required: 0
+--- !u!114 &-1047992330144300011
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6a75d1f5ff90154ea2a8e58222a1f59, type: 3}
+  m_Name: FoveatedRenderingFeature Android
+  m_EditorClassIdentifier: 
+  m_enabled: 0
+  nameUi: Foveated Rendering
+  version: 1
+  featureIdInternal: com.unity.openxr.feature.foveatedrendering
+  openxrExtensionStrings: XR_UNITY_foveation XR_FB_foveation XR_FB_foveation_configuration
+    XR_FB_swapchain_update_state XR_FB_foveation_vulkan XR_META_foveation_eye_tracked
+    XR_META_vulkan_swapchain_create_info
+  company: Unity
   priority: 0
   required: 0
 --- !u!114 &-921277011388025043
@@ -780,6 +824,7 @@ MonoBehaviour:
   - {fileID: -4331200201285626003}
   - {fileID: -4937809051459735365}
   - {fileID: 2623471863337930312}
+  - {fileID: -1047992330144300011}
   - {fileID: 378858850249410221}
   - {fileID: 3034489295064793002}
   - {fileID: -7475957969670903645}
@@ -806,6 +851,7 @@ MonoBehaviour:
   m_spacewarpMotionVectorTextureFormat: 0
   m_optimizeBufferDiscards: 0
   m_symmetricProjection: 0
+  m_foveatedRenderingApi: 0
 --- !u!114 &4614298136598900561
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1003,6 +1049,7 @@ MonoBehaviour:
   - {fileID: -6785432231834609079}
   - {fileID: -921277011388025043}
   - {fileID: 5655688568842676487}
+  - {fileID: -1859073986800274992}
   - {fileID: 7999420884857584399}
   - {fileID: -6113599940382662415}
   - {fileID: 133667393838732366}
@@ -1030,6 +1077,7 @@ MonoBehaviour:
   m_spacewarpMotionVectorTextureFormat: 0
   m_optimizeBufferDiscards: 0
   m_symmetricProjection: 0
+  m_foveatedRenderingApi: 0
 --- !u!114 &7999420884857584399
 MonoBehaviour:
   m_ObjectHideFlags: 0
